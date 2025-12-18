@@ -7,7 +7,7 @@ app.get('/',(req,res)=>{
 });
 
 app.get('/about',(req,res)=>{
-    res.send('About');
+    res.send('I am main');
 });
 
 app.listen(port,()=>{
