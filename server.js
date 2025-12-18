@@ -7,7 +7,7 @@ app.get('/',(req,res)=>{
 });
 
 app.get('/about',(req,res)=>{
-    res.send('I am branch_1');
+    res.send('About');
 });
 
 app.listen(port,()=>{
@@ -15,3 +15,5 @@ app.listen(port,()=>{
 });
 
 
+console.log('Rahul Gupta');
+console.log('Rohan Tiwary');
