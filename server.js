@@ -7,9 +7,14 @@ app.get('/',(req,res)=>{
 });
 
 app.get('/about',(req,res)=>{
-    res.send('About Page');
+    res.send('About');
 });
 
 app.listen(port,()=>{
     console.log(`Server is running at http://localhost:${port}`);
 });
+});
+
+
+console.log('Rahul Gupta');
+console.log('Rohan Tiwary');
